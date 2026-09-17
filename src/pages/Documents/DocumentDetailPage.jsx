@@ -231,11 +231,11 @@ const DocumentDetailPage = () => {
             PDF VIEWER
         ===================================================== */}
 
-        <div className="bg-slate-100 p-2">
+        <div className="bg-slate-100 p-2 h-[80vh]">
           <iframe
             src={pdfUrl}
             title="PDF Preview"
-            className="h-full w-full border-0"
+            className="w-full h-full border-0"
           />
         </div>
       </div>
